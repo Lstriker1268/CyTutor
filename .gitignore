@@ -1,0 +1,4 @@
+OllamaModel/.venv/
+OllamaModel/llama.cpp/
+__pycache__/
+*.pyc
