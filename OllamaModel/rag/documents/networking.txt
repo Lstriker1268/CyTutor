@@ -1,0 +1,16 @@
+TCP Three-Way Handshake
+
+The TCP three-way handshake establishes a TCP connection between a client and a server.
+
+Step 1: SYN
+The client sends a SYN packet to the server to request a connection. The SYN flag indicates that the client is initiating a connection and provides its initial sequence number.
+
+Step 2: SYN-ACK
+The server responds with a SYN-ACK packet. The SYN flag indicates the server's initial sequence number, and the ACK flag acknowledges the client's SYN.
+
+Step 3: ACK
+The client sends an ACK packet acknowledging the server's SYN. The TCP connection is now established, and data transfer can begin.
+
+Correct sequence: Client SYN -> Server SYN-ACK -> Client ACK.
+
+SYN means synchronize. ACK means acknowledgment. SYN and ACK are TCP flags, not separate handshake protocols.
