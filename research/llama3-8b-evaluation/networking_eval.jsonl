@@ -1,0 +1,5 @@
+{"question":"What is the purpose of the TCP three-way handshake?","reference":"The TCP three-way handshake establishes a TCP connection between a client and a server."}
+{"question":"What does the client send in the first step of the TCP three-way handshake?","reference":"The client sends a SYN packet requesting a connection and providing its initial sequence number."}
+{"question":"What does the server send in the second step, and what does it acknowledge?","reference":"The server sends a SYN-ACK packet, providing its initial sequence number and acknowledging the client's SYN."}
+{"question":"What is the final step of the TCP three-way handshake?","reference":"The client sends an ACK packet acknowledging the server's SYN, and the TCP connection is established."}
+{"question":"What do SYN and ACK mean in TCP?","reference":"SYN means synchronize, and ACK means acknowledgment. They are TCP flags, not separate handshake protocols."}
