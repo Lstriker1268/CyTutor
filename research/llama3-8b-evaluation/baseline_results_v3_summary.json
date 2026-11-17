@@ -1,0 +1,10 @@
+{
+  "model_id": "meta-llama/Meta-Llama-3-8B",
+  "precision": "FP16",
+  "max_new_tokens": 60,
+  "do_sample": false,
+  "repetition_penalty": 1.1,
+  "question_count": 5,
+  "total_runtime_seconds": 211.133,
+  "peak_gpu_memory_allocated_gib": 12.945
+}
